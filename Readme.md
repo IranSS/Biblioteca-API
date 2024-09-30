@@ -5,7 +5,7 @@ Este projeto será uma API RESTful simples para gerenciar um catálogo de livros
 ## Tecnologias Utilizadas 🚀
 
 - **Java 17**: Linguagem de programação principal.
-- **Spring Boot 3.3.x**: Framework para desenvolvimento rápido de APIs.
+- **Spring Boot 3.3.4**: Framework para desenvolvimento rápido de APIs.
 - **PostgreSQL**: Banco de dados relacional para armazenar os livros.
 - **Spring Data JPA**: Para simplificar a integração com o banco de dados.
 - **Maven**: Gerenciamento de dependências e build.
@@ -19,7 +19,7 @@ Este projeto será uma API RESTful simples para gerenciar um catálogo de livros
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-projeto.git
+   git clone https://github.com/IranSS/Biblioteca-API.git
    ```
 
 2. **Acesse a API:**
