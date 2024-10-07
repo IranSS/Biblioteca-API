@@ -1,4 +1,4 @@
-package com.iran.lista_de_livros.models;
+package com.biblioteca.api.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,7 +1,7 @@
-package com.iran.lista_de_livros.controllers;
+package com.biblioteca.api.controllers;
 
-import com.iran.lista_de_livros.services.BookService;
-import com.iran.lista_de_livros.models.Book;
+import com.biblioteca.api.models.Book;
+import com.biblioteca.api.services.BookService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
