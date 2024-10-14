@@ -21,6 +21,6 @@ public class BookController {
 
     @PostMapping("/post")
     public String postBook(@RequestBody Book body){
-        return body.getNome();
+        return body.getTitle();
     }
 }
