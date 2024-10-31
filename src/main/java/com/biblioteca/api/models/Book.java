@@ -23,4 +23,7 @@ public class Book {
     private String year;
     @Column(nullable = false)
     private String description;
+
+    //construtor padrão; é obrigatorio sua implementação por causa do JPA, pq? não sei;
+    public Book(){}
 }

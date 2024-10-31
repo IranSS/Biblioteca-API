@@ -4,6 +4,8 @@ import com.biblioteca.api.models.Book;
 import com.biblioteca.api.services.BookService;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/book")
 public class BookController {
@@ -13,14 +15,12 @@ public class BookController {
     public BookController(BookService bookService){
         this.bookService = bookService;
     }
-
-    @GetMapping("/get")
-    public String getBook(){
-        return bookService.helloWorld("Iran");
+    @GetMapping("/getall")
+    public List<Book> getAllBooks(){
+        return bookService.getBooks();
     }
-
     @PostMapping("/post")
-    public String postBook(@RequestBody Book body){
-        return body.getTitle();
+    public Book postBook(@RequestBody Book body){
+        return bookService.saveBook(body);
     }
 }
